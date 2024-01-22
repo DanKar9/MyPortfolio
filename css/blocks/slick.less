@@ -1,0 +1,65 @@
+// main: ../style.less
+
+.slick-initialized{
+    height: 100%;
+}
+
+.slick-list{
+    height: 100%;
+}
+
+.slick-track{
+    height: 100%;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    z-index: 2;
+
+
+
+    
+
+    
+    li{
+        margin: 0 .5rem;
+
+
+        &.slick-active{
+            button{
+                background-color: @white;
+            }
+        }
+    }
+
+
+
+    button{
+        width: 11px;
+        height: 11px;
+        
+        padding: 0;
+        cursor: pointer;
+        border: 1px solid @white;
+        
+        
+        background: transparent;
+        border-radius: 50%;
+        color: transparent;
+        font-size: 0;
+
+        
+        
+    }
+
+  
+}

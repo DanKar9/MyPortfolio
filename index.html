@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- HEADER-->
+    <header class="header" id="header">
+        <div class="container">
+
+            <div class="header__inner">
+                <div class="avatar">
+                    <div class="avatar__img">
+                        <img src="images/avatar.jpg" alt="">
+                    </div>
+                <div class="avatar__info">
+                    <div class="avatar__name">Danil <br> Karashchuk</div>
+                    <div class="avatar__prof">frontend developer</div>
+                </div>    
+                </div>
+                    <nav class="nav">
+                        <a class="nav__link" data-scroll="#work" href="">work</a>
+                        <a class="nav__link" data-scroll="#about" href="">about me</a>
+                        <a class="nav__link" data-scroll="#blog" href="" >blog</a>
+                        <a class="nav__link" data-scroll="#contact" href="">contacts</a>
+                        <a class="nav__link nav__link--btn" data-modal="#modals__contacts" href="">hire me</a>
+                    </nav>
+                
+                    <div class="burger">
+                        <img class="burger__icon" src="/images/menu-svgrepo-com.svg" alt="">
+                    </div>
+
+
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+
+            <div class="intro__content">
+                <h2 class="sup__title">Hello, I’m
+                </h2>
+                <h1 class="title">Danil Karashchuk</h1>
+                <div class="intro__text">frontend developer</div>
+
+                <div class="social">
+                    <a class="seti" href="">
+                        <img src="/images/social/1.png" alt="">
+                    </a>
+                    <a class="seti" href="">
+                        <img src="/images/social/2.png" alt="">
+                    </a>
+                    <a class="seti" href="">
+                        <img src="/images/social/3.png" alt="">
+                    </a>
+                    <a class="seti" href="">
+                        <img src="/images/social/4.png" alt="">
+                    </a>
+                    <a class="seti" href="">
+                        <img src="/images/social/5.png" alt="">
+                    </a>
+                    <a class="seti" href="">
+                        <img src="/images/social/6.png" alt="">
+                    </a>
+                </div>
+                
+                    <a class="btn" href="" data-modal="#modals__contacts">HIRE ME</a>
+                    <button class="btn" type="button" data-modal="#modals__resume">SEE MY RESUME </button>
+                 </div>
+            
+                 <div class="intro__photo">
+                    <img class="photo__me" src="/images/me2.png" alt="">
+                </div>
+
+        </div><!-- intro__inner-->
+            
+            
+            
+    </div> 
+</div>
+            
+                <div class="work" id="work">
+                    <div class="container">   
+                        <div class="work__nav">
+                            <a class="work__link" data-work="all" href="">All</a>
+                            <a class="work__link" data-work="app" href="">App</a>
+                            <a class="work__link" data-work="website" href="">Website</a>
+                            <a class="work__link" data-work="interaction" href="">Interaction</a>
+                        </div>
+
+
+                    <div class="portfolio">
+          
+            
+                        <div class="portfolio__str" data-cat="app">
+                            <div class="portfolio__item" data-modal="#modals__projects">
+                                <img class="portfolio__image" src="https://via.placeholder.com/570x300" alt="">
+                                <div class="portfolio__cat">Category--app</div>
+                                <div class="portfolio__name">
+                                    <div class="portfolio__title">PROJECT TITLE</div>
+                                    <div class="portfolio__data">2022</div>
+                                </div>
+                            </div>
+                        </div>    
+                            
+                            <div class="portfolio__str" data-cat="app">    
+                            <div class="portfolio__item" data-modal="#modals__projects1" >
+                                <img class="portfolio__image" src="https://via.placeholder.com/570x300" alt="">
+                                <div class="portfolio__cat">Category--app</div>
+                                <div class="portfolio__name">
+                                    <div class="portfolio__title">PROJECT TITLE</div>
+                                    <div class="portfolio__data">2022</div>
+                                </div>
+                            </div>
+                        </div>    
+                            
+                        <div class="portfolio__str" data-cat="website">  
+                            <div class="portfolio__item" data-modal="#modals__projects">
+                                <img class="portfolio__image" src="https://via.placeholder.com/570x300" alt="">
+                                <div class="portfolio__cat">Category--website</div>
+                                <div class="portfolio__name">
+                                    <div class="portfolio__title">PROJECT TITLE</div>
+                                    <div class="portfolio__data">2022</div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="portfolio__str" data-cat="website">
+                                <div class="portfolio__item" data-modal="#modals__projects">
+                                    <img class="portfolio__image" src="https://via.placeholder.com/570x300" alt="">
+                                <div class="portfolio__cat">Category--website</div>
+                                <div class="portfolio__name">
+                                    <div class="portfolio__title">PROJECT TITLE</div>
+                                    <div class="portfolio__data">2022</div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="portfolio__str" data-cat="interaction">
+                                <div class="portfolio__item" data-modal="#modals__projects">
+                                <img class="portfolio__image" src="https://via.placeholder.com/570x300" alt="">
+                                <div class="portfolio__cat">Category--interaction</div>
+                                <div class="portfolio__name">
+                                    <div class="portfolio__title">PROJECT TITLE</div>
+                                    <div class="portfolio__data">2022</div>
+                                </div>
+                            </div>
+                        </div>    
+                            
+                        <div class="portfolio__str" data-cat="interaction">  
+                            <div class="portfolio__item" data-modal="#modals__projects">
+                                <img class="portfolio__image" src="https://via.placeholder.com/570x300" alt="">
+                                <div class="portfolio__cat">Category--interaction</div>
+                                <div class="portfolio__name">
+                                    <div class="portfolio__title">PROJECT TITLE</div>
+                                    <div class="portfolio__data">2022</div>
+                                </div>
+                            </div>
+                        </div>    
+                   
+                   
+                        
+
+
+                </div> <!--Portfolio-->
+
+                <div class="text-center">
+                    <a class="btn btn--sm" href="">LOAD MORE WORK</a>
+                    </div>
+                      
+        </div> <!-- container-->
+        
+
+    </div>  <!--work-->
+             
+
+
+
+    <section class="about" id="about">
+        <div class="container">
+
+            <div class="about__inner">
+
+                <div class="about__photo">
+                    <img class="about__img" src="/images/me.png" alt="">
+                </div>
+                
+                <div class="about__content">
+                    <h3 class="suptitle">About me</h3>
+                    <h2 class="title1">Who am I</h2>
+                    <div class="about__text">
+                        <p>Let me introduce myself. My name is Danil. I’m 23 years old. I was born in Gorlovka in Donetsk region, but i had to leave and now 
+                            i live in Mendeleevsk(Republic of Tatarstan) Russia. <p>I was graduated from the Kazan National Research Technological University and worked as an engineer at the factory. </p>
+                            My work experience accounts 2 years. What concerns my character and skills, 
+                            I’m very hard-working, responsible, diligent, and social person with a good sense of humor.
+                            In the pastime, I’m crazy about football and write code. Now i want to become a <b>frontend developer</b>.</p>
+                    </div>
+
+                    <a class="btn" href="" data-modal="#modals__contacts">HIRE ME</a>
+                    <button class="btn" type="button" data-modal="#modals__resume">SEE MY RESUME </button>
+
+                </div>
+
+
+
+            </div> <!-- about__inner-->
+
+        </div> <!-- container-->
+    </section>
+    
+
+
+
+    <div class="reviews">
+        <div class="container">
+
+            <div class="reviews__item">
+
+                <div class="reviews__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                </div>
+
+                <div class="reviews__author">
+                        <img class="reviews__image" src="https://via.placeholder.com/103x103" alt="">
+                    
+
+                    <div class="reviews__name">Edward M.</div>
+                    <div class="reviews__company">Marketing house</div>
+
+                    <div class="reviews__star">
+                        <img class="star" src="/images/star.png" width="13" height="13" alt="">
+                        <img class="star" src="/images/star.png" width="13" height="13" alt="">
+                        <img class="star" src="/images/star.png" width="13" height="13" alt="">
+                        <img class="star" src="/images/star.png" width="13" height="13" alt="">
+                        <img class="star" src="/images/star.png" width="13" height="13" alt="">
+                    </div>
+                </div>
+            </div><!--reviews__inner-->
+
+        </div> <!-- container-->
+    </div> <!--reviews-->
+
+
+
+    <section class="read" id="blog">
+        <div class="container">
+           
+            <div class="read__setting">
+                <h1 class="read__title">Read Me</h1>
+                <h2 class="read__suptitle">Sometimes i write something smart</h2>
+            </div>
+
+            <div class="read__inner">
+
+                <div class="read__item">
+                    
+                    <img class="read__img" src="https://via.placeholder.com/370x260" alt="">
+                    <time class="read__time">10 <br> june</time>
+                    <a class="read__name" href="">TEN THE BEST APP IN 2022</a>
+                    <div class="read__cat">CATEGORY </div>
+                    <div class="read__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat.
+                    </div>
+                    <a class="btn btn--sm btn--read" href="">READ MORE</a>
+                </div>
+               
+               
+                <div class="read__item">
+                    <img class="read__img" src="https://via.placeholder.com/370x260" alt="">
+                    <time class="read__time">15 <br> june</time>
+                    <a class="read__name" href="">WEBSITE INSPIRATION</a>
+                    <div class="read__cat">CATEGORY </div>
+                    <div class="read__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat.
+                    </div>
+                    <a class="btn btn--sm btn--read" href="">READ MORE</a>
+                </div>
+                
+                
+                <div class="read__item">
+                    <img class="read__img" src="https://via.placeholder.com/370x260" alt="">
+                    <time class="read__time">20 <br> june</time>
+                    <a class="read__name" href="">CHANGES IN SOCIAL MEDIA</a>
+                    <div class="read__cat">CATEGORY </div>
+                    <div class="read__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat.
+                    </div>
+                    <a class="btn btn--sm btn--read" href="">READ MORE</a>
+                </div>
+
+                
+
+            </div> <!--read__inner-->
+
+        <div class="footer__read">
+            <a class="read__link" href="">See more posts</a>
+        </div>
+
+
+
+
+        </div> <!-- container-->
+    </section>
+
+
+
+    <footer class="footer" id="contact">
+        <div class="container">
+
+            <div class="footer__inner">
+
+                <div class="footer__item">
+                    <div class="footer__text">
+                        © 2022 UI43 - Free Templates
+                    </div>
+
+                    <div class="footer__social">
+                        <a href="" target="_blank">
+                            <img class="footer__img" src="/images/footer/behance-svgrepo-com.svg" width="23" height="23" alt="">
+                        </a>
+
+                        <a href="" target="_blank">
+                            <img class="footer__img" src="/images/footer/dribbble-svgrepo-com.svg" width="23" height="23" alt="">
+                        </a>
+
+                        <a href="" target="_blank">
+                            <img class="footer__img" src="/images/footer/linkedin-svgrepo-com.svg" width="23" height="23" alt="">
+                        </a>
+
+                        <a href="" target="_blank">
+                            <img class="footer__img" src="/images/footer//facebook-svgrepo-com.svg" width="23" height="23" alt="">
+                        </a>
+
+                        <a href="" target="_blank">
+                            <img class="footer__img" src="/images/footer/instagram-svgrepo-com.svg" width="23" height="23" alt="">
+                        </a>
+
+                        <a href="" target="_blank">
+                            <img class="footer__img" src="/images/footer//twitter-svgrepo-com.svg" width="23" height="23" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="footer__nav">
+                    <a class="footer__link"  href="">Work</a>
+                    <a class="footer__link" href="">About Me</a>
+                    <a class="footer__link" href="">Blog</a>
+                    <a class="footer__link" href="">Contact</a>
+                    <a class="nav__link nav__link--btn nav__link--footer" data-modal="#modals__contacts" href="">hire me</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- Modals-->
+
+    <div class="modals" id="modals__projects">
+        <div class="modals__container">
+
+            <div class="modals__inner">
+                <div class="modals__photo">
+                    <div data-slider="slider">
+                        <div>
+                        <img class="modals__img" src="https://via.placeholder.com/790x780/" alt="">
+                        </div>
+
+                        <div>
+                            <img class="modals__img" src="https://via.placeholder.com/790x780/333" alt="">
+                            </div>
+
+                    </div>    
+                </div>
+
+                <div class="modals__item">
+                    <button class="modals__close" type="button" data-close>
+                    <img class="close" src="/images/arrow/close-svgrepo-com.svg"  alt="">
+                    </button>
+                    <div class="modals__info">
+                        <h3 class="modals__title">PROJECT TITLE</h3>
+                        <div class="modals__cat">CATEGORY | 2022</div>
+                        <div class="modals__client">Client:</div>
+                        <div class="modals__company">Creative Agency</div>
+                        <div class="modals__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat est consequat eu. Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo. Praesent dui sapien, bibendum quis tempus dictum, auctor ac dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec at mauris porta, ullamcorper sem quis, lobortis sem. Donec sit amet aliquet dui, at varius est. Phasellus porttitor finibus neque vel vehicula. Duis in nulla egestas, dignissim elit at, imperdiet eros. .</div>
+                    </div>       
+                    
+                    
+                            <div class="modals__btn">
+                                
+                                <button class="modals__button slickPrev"  type="button">
+                                    <img src="/images/arrow/left-arrow-svgrepo-com.svg" height="11" alt="">
+                                    PREVIOUS
+                                </button>
+                               
+                                <button class="modals__button slickNext" type="button">
+                                    NEXT
+                                    <img src="/images/arrow/right-arrow-svgrepo-com.svg" height="11" alt="">
+                                </button>
+                            </div>
+
+                </div>
+
+                
+
+
+            </div>
+
+        </div> <!--modals__container-->
+    </div> <!--modals-->
+
+
+
+
+    <div class="modals" id="modals__projects1">
+        <div class="modals__container">
+
+            <div class="modals__inner">
+                <div class="modals__photo">
+                    <div data-slider="slider">
+                        <div>
+                        <img class="modals__img" src="https://via.placeholder.com/790x780/" alt="">
+                        </div>
+
+                        <div>
+                            <img class="modals__img" src="https://via.placeholder.com/790x780/333" alt="">
+                            </div>
+
+                    </div>    
+                </div>
+
+                <div class="modals__item">
+                    <button class="modals__close" type="button" data-close>
+                    <img class="close" src="/images/arrow/close-svgrepo-com.svg"  alt="">
+                    </button>
+                    <div class="modals__info">
+                        <h3 class="modals__title">PROJECT TITLE 2</h3>
+                        <div class="modals__cat">CATEGORY | 2022</div>
+                        <div class="modals__client">Client:</div>
+                        <div class="modals__company">Creative Agency</div>
+                        <div class="modals__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat est consequat eu. Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo. Praesent dui sapien, bibendum quis tempus dictum, auctor ac dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec at mauris porta, ullamcorper sem quis, lobortis sem. Donec sit amet aliquet dui, at varius est. Phasellus porttitor finibus neque vel vehicula. Duis in nulla egestas, dignissim elit at, imperdiet eros. .</div>
+                    </div>       
+                    
+                    
+                            <div class="modals__btn">
+                                
+                                <button class="modals__button slickPrev"  type="button">
+                                    <img src="/images/arrow/left-arrow-svgrepo-com.svg" height="11" alt="">
+                                    PREVIOUS
+                                </button>
+                               
+                                <button class="modals__button slickNext" type="button">
+                                    NEXT
+                                    <img src="/images/arrow/right-arrow-svgrepo-com.svg" height="11" alt="">
+                                </button>
+                            </div>
+
+                </div>
+
+                
+
+
+            </div>
+
+        </div> <!--modals__container-->
+    </div> <!--modals-->
+
+
+
+    <div class="modals" id="modals__resume">
+        <div class="modals__container">
+            <div class="skills">
+                <button class="modals__close" type="button" data-close>
+                    <img class="close" src="/images/arrow/close-svgrepo-com.svg"  alt="">
+                </button>
+                
+                <div class="resume">
+                    <h3 class="resume__title">Resume</h3>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn--sm btn--smth" href="">DOWNLOAD PDF</a>
+                    <a class="btn btn--sm btn--smth" href="">PRINT</a>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline__col timeline__col--left">
+                        
+                        <div class="timeline__title">EXPERIENCE</div>
+                        <div class="timeline__date">2020 - <b>Present</b></div>
+                        <div class="timeline__work">Ammoni stock company</div>
+                        <div class="timeline__pers">Process Engineer</div>
+                        <div class="timeline__text">
+                            <p>- Reading technological schemes and drawings;</p>
+                            <p>- Study of the main processes and apparatuses of chemical technology;</p>
+                             <p>- Preparation of reports on the work done.</p></div>
+                        <div class="timeline__title">Awards</div>
+                        
+                            <div class="timeline__date">2019</div>
+                            <div class="timeline__pers timeline__pers--awards">Participant of the Olympiad "Chemistry and Physics of Polymers" in Kazan</div>
+
+                            <div class="timeline__date">2020</div>  
+                            <div class="timeline__pers">
+                                Participant of the competition "Best young apparatchik"  in Nizhnekamsk</div>
+                         
+                    </div>
+
+                    <div class="timeline__col timeline__col--right">
+                        
+                        <div class="timeline__title">EDUCATION</div>
+                        <div class="timeline__date">2016 - 2020</div>
+                        <div class="timeline__work">chemical Technology</div>
+                        <div class="timeline__pers timeline__pers--univer">Kazan National Research Technological University</div> 
+                        <div class="timeline__title">Skills</div>
+                        
+                        <div class="progress__bar">
+                        
+                            <div class="skills__inner">
+
+                                <div class="skills__progr">
+                                    <div class="progress">Photoshop</div>
+                                </div>
+
+                                <div class="skills__rating">
+                                    <div class="skills__item">
+                                        <div class="skills__progress" style="width:80%;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                
+
+                            </div> <!--skills__inner-->
+
+                            <div class="skills__inner">
+
+                                <div class="skills__progr">
+                                    <div class="progress">HTML coding</div>
+                                </div>
+
+                                <div class="skills__rating">
+                                    <div class="skills__item">
+                                        <div class="skills__progress" style="width:70%;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                
+
+                            </div> <!--skills__inner-->
+
+                            <div class="skills__inner">
+
+                                <div class="skills__progr">
+                                    <div class="progress">JS</div>
+                                </div>
+
+                                <div class="skills__rating">
+                                    <div class="skills__item">
+                                        <div class="skills__progress" style="width:20%;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                
+
+                            </div> <!--skills__inner-->
+
+                            <div class="skills__inner">
+
+                                <div class="skills__progr">
+                                    <div class="progress">React</div>
+                                </div>
+
+                                <div class="skills__rating">
+                                    <div class="skills__item">
+                                        <div class="skills__progress" style="width:5%;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                
+
+                            </div> <!--skills__inner-->
+
+                        </div>
+                    </div> <!-- right-->
+
+                </div> <!--timeline-->
+                <div class="text-center">
+                <a class="nav__link nav__link--btn" data-modal="#modals__contacts" href="">hire me</a>
+                 </div>
+            </div>  <!--skills-->  
+                
+        </div> <!--modals__container-->
+    </div> <!--modals-->
+
+
+
+    <div class="modals" id="modals__contacts">
+        <div class="modals__container modals__container--sm">
+            
+            <div class="modals__inner">
+                <button class="modals__close modals__close--contact" type="button" data-close>
+                    <img class="close" src="/images/arrow/close-svgrepo-com contact.svg"  alt="">
+                </button>
+                
+                    <div class="contact__left">
+                    
+                        
+                        <div class="contact__title">
+                            <h3 class="resume__title resume__title--contact">LET'S TALK!</h3>
+                                <div class="contact__subtitle">CALL ME OR SEND ME A REQUEST</div>
+                        </div>        
+                        
+                        
+                            <ul class="contact__list">
+                                <li class="contact__info">
+                                    <img class="contact__icon" src="/images/contact/phone-svgrepo-com.svg" alt="" width="11" height="11">
+                                    +7 (987) 174-20-16
+                                </li>
+
+                                <li class="contact__info">
+                                    <img class="contact__icon" src="/images/contact/email-svgrepo-com.svg" width="11"
+                                    height="11" alt="">
+                                    danil_karashchuk@mail.ru
+                                </li>
+                            </ul>
+                        
+                            <form class="form" action="/" method="post">
+                                <div class="form__group">
+                                    <label class="form__label" for="input-email">Adress e-mail</label>
+                                    <input class="form__input" name="form__input" type="text" id="input-email" placeholder="Adress e-mail">
+                                </div>
+                                    
+                                    <label class="form__label" for="input__text">Request</label> 
+                                    <textarea class="form__textarea" name="input__text" id="input-text" placeholder="Type your request..." ></textarea>
+                            </form>
+
+                        <div class="text--right">
+                            <button class="btn btn--norm">SEND</button>
+                        </div>            
+                    </div>
+                
+                
+                    <div class="contact__right">
+                        <img class="contact__photo" src="/images/contact.jpg" alt="">
+                    </div>
+                
+            </div> <!--modals__inner-->
+            
+        </div> <!--modals__container-->
+    </div>       <!--modals-->
+
+<!--JS-->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/app.js"></script>
+
+
+</body>
+</html>

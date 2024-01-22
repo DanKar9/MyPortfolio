@@ -1,0 +1,70 @@
+// main: ../style.less
+
+.footer{
+    background-color: @black;
+    padding: 2rem 0;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    
+    @media @notebook{
+        flex-direction: column;
+        
+    }
+}
+
+.footer__text{
+    font-size: 1.4rem;
+    color: @grey-ligth;
+
+    @media @phone{
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+.footer__link{
+    text-decoration: none;
+    color: @grey-ligth;
+    padding-left: 2rem;
+
+
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.footer__item{
+    display: flex;
+    align-items: center;
+
+    @media @notebook{
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+
+    @media @phone{
+        flex-direction: column;
+    }
+}
+
+.footer__social{
+    margin-left: 2.8rem;
+}
+
+.footer__img{
+    margin-right: 1rem;
+}
+
+.footer__nav{
+    @media @notebook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

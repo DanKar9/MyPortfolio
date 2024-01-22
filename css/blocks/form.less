@@ -1,0 +1,42 @@
+// main: ../style.less
+
+.form{
+    margin-bottom: 3rem;
+}
+
+
+.form__label{
+    display: inline-block;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.form__input,
+.form__textarea{
+    display: block;
+    width: 90%;
+
+    border-radius: 30px;
+    border: 1px fade(#707070,70%) solid;
+    padding: 2rem 0 2rem 2.5rem;
+
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        border-color: #1c1f4d;
+    }
+}
+
+.form__textarea{
+    height: 200px;
+    resize: none;
+}
+
+.form__group{
+    margin-bottom: 2.5rem;
+}

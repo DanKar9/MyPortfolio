@@ -1,0 +1,119 @@
+// main: ../style.less
+
+.read{
+    margin-top: 25rem;
+
+    @media @phone{
+        margin-top: 20rem;
+    }
+    
+}
+
+.read__setting{
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+.read__title{
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.read__suptitle{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color:#8C8C8D;
+}
+
+
+.read__inner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.read__item{
+    width: 33.333%;
+    padding: 0 1.6rem;
+    position: relative;
+    cursor: pointer;
+
+    @media @phone{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.read__img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.read__time{
+    position: absolute;
+    font-size: 1.6rem;
+    left: 16px;
+    top: 0;
+    z-index: 1;
+    background-color: @black;
+    color: @white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.read__name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+    text-decoration: none;
+    color: @black;
+
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.read__cat{
+    font-size: 1.2rem;
+    margin-bottom: 2.3rem;
+    margin-top: 0.8rem;
+}
+
+.read__text{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: @gray;
+    line-height: 2;
+    margin-bottom: 2.3rem;
+}
+
+
+.footer__read{
+    margin-top: 1.6rem;
+    margin-bottom: 12.2rem;
+    text-align:right;
+}
+
+
+
+
+.read__link{
+    
+    text-decoration: none;
+    color: @gray;
+    font-size: 1.4rem;
+    
+
+
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
